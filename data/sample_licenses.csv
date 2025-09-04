@@ -1,0 +1,4 @@
+software_id,license_key,expiration_date,renewal_status,assigned_user
+1,XXXXX-AAAAA-11111,2025-12-31,Valid,John Doe
+2,YYYYY-BBBBB-22222,2024-09-15,Expiring Soon,Jane Smith
+3,ZZZZZ-CCCCC-33333,2023-05-01,Expired,Server Admin

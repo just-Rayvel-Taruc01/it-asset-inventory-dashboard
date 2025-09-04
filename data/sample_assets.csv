@@ -1,0 +1,4 @@
+asset_tag,device_type,model,os,location,department,owner,purchase_date,status,decommission_date
+A1001,Laptop,Dell Latitude 5420,Windows 10,NYC HQ,IT,John Doe,2023-01-15,In Use,
+A1002,Desktop,HP EliteDesk 800,GNU/Linux,London,Finance,Jane Smith,2022-06-10,In Use,
+A1003,Server,Lenovo ThinkSystem,Windows Server,NYC HQ,IT,Server Admin,2021-03-20,Decommissioned,2024-08-01
