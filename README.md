@@ -20,32 +20,34 @@ Built with **PostgreSQL + ETL scripts + Streamlit + Plotly** for visualization.
 
 ## Project Structure
 
+```
 it-asset-inventory-dashboard/
 │
-├── db/ # Database schema
-│ └── schema.sql
+├── db/                  # Database schema
+│   └── schema.sql
 │
-├── etl/ # Data ingestion scripts
-│ ├── etl_csv.py
-│ ├── etl_ldap.py
-│ ├── etl_nmap.py
-│ └── utils/db.py
+├── etl/                 # Data ingestion scripts
+│   ├── etl_csv.py
+│   ├── etl_ldap.py
+│   ├── etl_nmap.py
+│   └── utils/
+│       └── db.py
 │
-├── data/ # Sample datasets
-│ ├── sample_assets.csv
-│ ├── sample_licenses.csv
-│ └── sample_software.csv
+├── data/                # Sample datasets
+│   ├── sample_assets.csv
+│   ├── sample_licenses.csv
+│   └── sample_software.csv
 │
-├── dashboard/ # Visualization (Streamlit + Plotly)
-│ ├── app.py
-│ └── charts.py
+├── dashboard/           # Visualization (Streamlit + Plotly)
+│   ├── app.py
+│   └── charts.py
 │
-├── alerts/ # Notification scripts
-│ └── license_alerts.py
+├── alerts/              # Notification scripts
+│   └── license_alerts.py
 │
-├── requirements.txt # Python dependencies
+├── requirements.txt     # Python dependencies
 └── README.md
-
+```
 ---
 
 ## Setup Instructions
