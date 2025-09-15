@@ -20,7 +20,7 @@ Built with **PostgreSQL + ETL scripts + Streamlit + Plotly** for visualization.
 
 ## Project Structure
 
-```
+```bash
 it-asset-inventory-dashboard/
 │
 ├── db/                  # Database schema
