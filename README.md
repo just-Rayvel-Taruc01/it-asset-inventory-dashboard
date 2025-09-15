@@ -58,7 +58,7 @@ it-asset-inventory-dashboard/
 2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-````
+   ```
 
 3. **Create the database (PostgreSQL)**
 
